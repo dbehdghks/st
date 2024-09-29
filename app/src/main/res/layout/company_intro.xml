@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtn3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/coinfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="회사소개" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ceoinfo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="대표 소개" />
+
+    <TextView
+        android:id="@+id/ceoinfo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="대표 : 김범준" />
+
+    <TextView
+        android:id="@+id/ceoinfo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="-히딩크 자서전 '거스 히딩크' 원서 초역
+
+
+        -1998년 부터 2016년까지 'KLM 네덜란드 항공사' 인천 - 암스테르담행의 기내 네덜란드 홍보영상 dml 번역 및 녹음" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ciimage1"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ciimage1" />
+
+        <TextView
+            android:id="@+id/ci1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="각종 박람회, 기업 방문, 농축산 업체 등 네덜란드 현지 업체들과 연계" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ciimage2"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ciimage2" />
+
+        <TextView
+            android:id="@+id/ci2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="한국 미디어의 촬영을 위한 네덜란드 현지 방문지 섭외 및 통역" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ciimage3"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ciimage3" />
+
+        <TextView
+            android:id="@+id/ci3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="한국 단체 여행객을 위한 서유럽 랜드사와 협업하며 로컬 서비스를 담당" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ciimage4"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ciimage4" />
+
+        <TextView
+            android:id="@+id/ci4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="네덜란드 출장 혹은 개인/가족/소규모 단체 등 개별적 일정과 시간에 맞추어 전문 가이드의 자세한 설명과 함께 관광을 제공합니다." />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="250dp">
+
+        <Button
+            android:id="@+id/home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="홈으로" />
+    </FrameLayout>
+
+</LinearLayout>

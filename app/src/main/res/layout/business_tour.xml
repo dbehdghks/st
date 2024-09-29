@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/coordi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="비즈니스 투어" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/biztour1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="  네덜란드 내 기관 및 업체의 방문 섭외 및 통역을 진행합니다. 업무 후 여분의 시간에 맞춰 현장 체험, 또는 원하시는 지역의 여행 가이드 서비스를 제공해 드립니다." />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/businesstour" />
+
+    <TextView
+        android:id="@+id/biztour2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="   대표적으로 암스테르담의 RAI에서 개최되는 박람회 참관 및 참여 업체의 부스설치, 기관 연결 및 통역까지 다양하게 업무에 맞추어 진행을 합니다. 이외에도 농/축산 관련, 한국 미디어 업체 관련, 환경/에너지 관련, 공공기관 관련, 교육기관 관련, 수자원 및 교통부 관련 등 다양한 분석에서도 비즈니스 적으로 회사, 여러 기관 등을 연결시켜주는 업무도 가능합니다." />
+
+    <TextView
+        android:id="@+id/biztour3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="견적 문의"
+        android:textAlignment="gravity"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bizbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="문의하기"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="250dp">
+
+        <Button
+            android:id="@+id/home2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="홈으로" />
+    </FrameLayout>
+</LinearLayout>
